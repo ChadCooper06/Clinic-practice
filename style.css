@@ -1,1 +1,39 @@
+/*styling for overall site*/
+    body {background-color: #25CED1;
+    }
+    .thin-black-border {border-color: black; border-width: 5px; border-style: groove;
+    }
+    article {background-color: aquamarine;
+        padding: 30;
+        
+    }
+    h1 {font-size: 85px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 2px grey;
+    text-align: center;
+    }
+    a {display: block; text-align: center;
+    }
+    h2 {font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    h3 {text-transform: uppercase;
+    }
+    img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    /*scheduler*/
+    .grey-background {background-color: #C4CBCA;
+    }
+    p {font-family: sans-serif; padding: 5px;
+    }
+    h4 {padding: 5px;
+    }
+    ul {background: white;
+    }
+    li {font-size: 25px; color: red; font-family: sans-serif;
+    }
 
