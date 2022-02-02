@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<!--this is a practice project to help learn skills-->
+<html>
 
+<head>
+<meta author= "Chad Cooper">
+<meta charset= "utf-8">
+<link rel="stylesheet" href="clinic-style.css">
+</head>
+
+<title>Generic Clinic</title>
+
+<body>
+
+<header>
+
+<h1 id = "top">Generic Clinic</h1>
+
+<figure>
+    <img src="http://clipart-library.com/data_images/516693.jpg"
+    alt="Clinic Clipart"
+    title="Clinic Clipart"
+    width="500px" height="300px"  />
+</figure>
+<h2>Useful Links</h2><!--my links to other parts of the page-->
+    <a href="#about_us">About Us</a><br />
+    <a href="#services_provided">Services Provided</a><br />
+    <a href= "#make_an_appointment">Make an Appointment</a><br />
+    <a href= "#contact_us">Contact Us</a><br />
+
+</header>
+
+<h3 id = "about_us">About Us</h3>
+    <p>Generic Clinic has been proudly serving the community of Generic Town since 1993 and is dedicated to providing
+        the best non-emergency medical care possible. We have a full service staff that are ready to help you with all
+        of your clinical needs. Our highly trained and friendly staff are available 7 days a week.
+        We are located at 1874 Generic St.</p>
+
+<article>
+
+<h3 id = "services_provided">Services Provided</h3>
+    <p>Generic Clinic provides services for individuals and families while following all standard medical guidelines and laws.
+        Our clinic provides standard Primary Care Provider services including:<br />
+        <ul>
+            <li>Bloodwork/Urinalysis</li>
+            <li>General Health Screenings</li>
+            <li>Allergy Screenings</li>
+            <li>STI Screenings</li>
+            <li>Vaccination and Booster Shots</li>
+            <li>Pregnancy Tests and Prenatal Checkups</li>
+            <li>Annual Checkups</li>
+            <li>DOT/Work Required Medical Checkups</li>
+            <li>Online Appointment Scheduling/Telehealth</li>
+        </ul><br />
+        We provide these and other non-emergency services in a friendly and safe environment, and we welcome patients of all ages.
+        All insurances are accepted and we accept payment via personal checks or credit/debit cards.</p>
+
+</article>
+
+<h3 id = "make_an_appointment">Make an Appointment</h3>
+    <P>Generic Clinic appointments can be made via our phone number or our convenient online scheduler. You are also welcome to come in 
+        and scheulde an appointment in person. We apologize, but walk-in appointments are only available for certain screenings.
+        All other appointments must be made prior to arrival.</P>
+
+<div id="scheduler" class="thin-black-border, grey-background">
+    <h4>Appointment Scheduler</h4><!--appt scheduler to pick doctor and reason for visit-->
+
+    <form action="http://www.appointments.com/scheduler.php" method="get">
+        <p>Reason for Visit</p>
+
+        <select name="reason">
+            <option value="lab_tests">Lab Tests</option>
+            <option value="allergy_test">Allergy Test</option>
+            <option value="pregnancy_test">Pregnancy Test</option>
+            <option value="annual_checkup">Annual Checkup</option>
+            <option value="prenatal_checkup">Prenatal Checkup</option>
+            <option value="dot">DOT</option>
+            <option value="vaccinations">Vaccinations</option>
+            <option value="other">Other</option>
+        </select><br />
+
+        <p>Please Provide your Information</p>
+
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>First Name:<br />
+            <input type="text" name="first_name" /></label><br />
+            <label>Last Name:<br />
+            <input type="text" name="last_name" /></label><br />
+            <label>Telephone:<br />
+            <input type="text" name="telephone" /></label>
+        </fieldset><br />
+
+        <p>Preferred Physician</p>
+
+        <select name="doctor">
+            <option value="dr_who">Dr. Who</option>
+            <option value="dr_jekyll">Dr. Jekyll</option>
+            <option value="dr_house">Dr. House</option>
+            <option value="dr_evil">Dr. Evil</option>
+        </select><br />
+
+        <p>Additional Information</p>
+        <textarea name="comments" cols="40" rows="5">Enter additional information...</textarea><br />
+
+        <input type="submit" name="submit" value="Submit Form" />
+
+        <p>Please have insurance and ID on hand upon arrival and be prepared to complete pre-screening paperwork if necessary.</p>
+
+    </form>
+</div>
+
+<h3 id="contact_us">Contact Information</h3>
+<p>Our friendly staff can be contacted via our main number: 555-555-0196. Our office hours are: Monday-Friday 7am-7pm
+    and Saturday-Sunday 9am-5pm. For emergencies, please dial 911.<br /></p>
+
+    <a href="#top">Top</a>
+
+    <footer>This website is copywrite 2021 to no one and is meant purely for practice. All information and code included is made up.
+    </footer>
+
+</body>
+
+</html>
